@@ -1,148 +1,179 @@
 <!DOCTYPE HTML>
+<!--
+	Helios by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
 <html>
 	<head>
-		<title>Nishat's website</title>
+		<title>Nishat</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
+<!--		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>-->
 	</head>
-	<body class="is-preload">
+	<body class="homepage is-preload">
+		<div id="page-wrapper">
 
-		<!-- Header -->
-			<header id="header">
-				<div class="inner">
-					<a class="image avatar"><img src="images/golden.jpeg" alt="" /></a>
-					<h1><strong>I am Nishat Parveen,</strong><br/>
-					I am a Data Scientist,<br/>
-					I am a programmer. </a></h1>
+			<!-- Header -->
+				<div id="header">
 
-					<!-- <p>Favorite quote,<br/> "Per Aspera ad Astra"</p> -->
+					<!-- Inner -->
+						<div class="inner">
+							<header>
+								<h1><a href="index.html" id="logo">Nishat Parveen</a></h1>
+								<hr />
+								<p>Bay Area Data Scientist</p>
+							</header>
+						</div>
+
+					<!-- Nav -->
+						<nav id="nav">
+							<ul>
+								<li><a href="#features">Projects</a></li>
+								<li><a href="#main">About Me</a></li>
+								<li><a href="Nishat_Parveen_Resume.pdf" target="_blank" rel="noopener noreferrer">Resume</a></li>
+								<li><a href="#contact">Contact</a></li>
+							</ul>
+						</nav>
+
 				</div>
-			</header>
 
-		<!-- Main -->
-			<div id="main">
+			<!-- Features -->
+			<div class="wrapper style1">
 
-				<!-- One -->
-					<section id="one">
-						<header class="major">
-							<h2>Hello, nice to meet you!</h2>
-						</header>
-						<p>I recently graduated with a Master's in <a href ="https://www.usfca.edu/arts-sciences/graduate-programs/data-science">Data Science</a> from University of San Francisco.<br/> Formerly a Data Science intern at <a href ="https://www.checkpoint.com">CheckPoint Software Technologies</a>, 
-						I am open to ML/DS job starting August. <br/>So, feel free to check out my resume to know more about my work experience!
-						</p>
-						<ul class="actions">
-
-							<li><a href="Nishat_Parveen_Resume.pdf" class="button">My Resume </a></li>
-
-						</ul>
-					</section>
-					<section id="two">
-									<header class="major">
-										<h2>A little more about me</h2>
-									</header>
-									<div class="features">
-										<article>
-											<div class="content">
-												<h3>Python Trainer</h3>
-												<p>I enjoyed teaching hands-on Python and basics of machine learning to a batch of 40 colleagues at Honeywell and a freshman class of 200 at Vellore Institute of Technology in 2018.</p>
-											</div>
-										</article>
-										<article>
-											<div class="content">
-												<h3>Gym Enthusiast</h3>
-												<p>Gym is one of my happy places. I like to keep myself fit and strong by weight training. <br/>My favorite exercise is bicep cable curl because I can feel the strength build up in my bicep every time I do it. </p>
-											</div>
-										</article>
-									</div>
-								</section>
-				<!-- Two -->
-					<section id="three">
-						<h2>My Projects</h2>
-						<div >
-							<article class="col-6 col-12-xsmall work-item">
-								<a href="images/chatbot.png" class="image fit thumb"><img src="images/chatbot.png" alt="" /></a>
-								<h3>Software installation and bug reporting chatbot</h3>
-								<p>Lowered the time cost in installing proprietary software and its bug reporting by automating the requests intake using a context based chatbot with a Long Short Term Memory(LSTM) model in PyTorch.</p>
-							</article>
-							<article class="col-6 col-12-xsmall work-item">
-								<a href="images/choroid.png" class="image fit thumb"><img src="images/choroid.png" alt="" /></a>
-								<h3>En-face choroidal vascularity map of the macula in healthy eyes</h3>
-								<p>Automated the task of cataract patient eye diagnosis by segmenting blood vessels in the choroid layer of the eye in MATLAB.<br/>
-									<a href="https://journals.sagepub.com/doi/abs/10.1177/1120672119883593?rfr_dat=cr_pub%3Dpubmed&url_ver=Z39.88-2003&rfr_id=ori%3Arid%3Acrossref.org&journalCode=ejoa">Paper</a> published in European Journal of Ophthalmology</p>
-							</article>
-							<article class="col-6 col-12-xsmall work-item">
-								<a href="images/exp_rec.png" class="image fit thumb"><img src="images/exp_rec.png" alt="" /></a>
-								<h3>Expression Recognition in Cohn Kanade+ dataset</h3>
-								<p>Trained a multi class support vector machine to recognise six facial expressions happy, surprise, sad, angry, disgust, fear by extracting features around the mouth and eyes regions of face.<br/>
-								Used a pyramid of local binary patterns on the low resolution images of Cohn Kanade+ dataset achieving 70% accuracy(highest) for happy and sad expressions.</p>
-							</article>
-							<article class="col-6 col-12-xsmall work-item">
-								<a href="images/noisy_env.jpg" class="image fit thumb"><img src="images/noisy_env.jpg" alt="" /></a>
-								<h3>Speaker recognition on VOICES Dataset in PySpark</h3>
-								<p>Classified 47 speakers in a noisy environment based on the <a href="https://voices18.github.io/reading/">dataset</a> using Random Forests with mean per class error of 0.196.</p>
-							</article>
-
-							<!-- <article class="col-6 col-12-xsmall work-item">
-								<a href="images/fulls/05.jpg" class="image fit thumb"><img src="images/thumbs/05.jpg" alt="" /></a>
-								<h3>Nunc enim commodo aliquet</h3>
-								<p>Lorem ipsum dolor sit amet nisl sed nullam feugiat.</p>
-							</article>
-							<article class="col-6 col-12-xsmall work-item">
-								<a href="images/fulls/06.jpg" class="image fit thumb"><img src="images/thumbs/06.jpg" alt="" /></a>
-								<h3>Risus ornare lacinia</h3>
-								<p>Lorem ipsum dolor sit amet nisl sed nullam feugiat.</p>
-							</article> -->
-						</div>
-						<!-- <ul class="actions">
-							<li><a href="https://drive.google.com/file/d/1esRDKOD9qfisnMHkEeIEyCbE1b-wdriE/view?usp=sharing" class="button">My Resume</a></li>
-						</ul> -->
-					</section>
-
-				<!-- Three -->
-					<section id="four">
-						<h2>Contact me</h2>
-						<p>If you would like to connect with me on an interesting Data Science project in your team, I am just an email away!</p>
-							<div class="col-4 col-12-small">
-								<ul class="labeled-icons">
-									<li>
-										<h3 class="icon solid fa-envelope"><span class="label">Email</span></h3>
-										<a href="https://mail.google.com/mail/?view=cm&fs=1&to=nishatconnect@gmail.com&su=Hi! I just checked out your website.&body=">nishatconnect@gmail.com</a>
-									</li>
-									<li>
-										<h3 class="icon solid fa-home"><span class="label">Address</span></h3>
-										Sunnyvale<br />
-										California, CA 94086<br />
-										United States
-									</li>
-									<li>
-										<h3 class="icon solid fa-mobile-alt"><span class="label">Phone</span></h3>
-										628-502-3712
-									</li>
+				<section id="features" class="container special">
+					<header>
+						<h2>Project Portfolio</h2>
+					</header>
+					<div class="row">
+						<article class="col-4 col-12-mobile special">
+							<a href="https://github.com/nishat-parveen/pyspark_ml_on_audio_dataset" class="image featured"><img src="images/noisy_env.jpg" alt="" /></a>
+							<header>
+								<h3><a href="https://github.com/nishat-parveen/pyspark_ml_on_audio_dataset">Multiple Speaker Recognition in noisy environment</a></h3>
+							</header>
+							<p>
+							Classified 47 speakers in a noisy environment based on the <a href= "https://iqtlabs.github.io/voices/"> Interspeech 2019 VOiCES Challenge dataset</a> using Random Forests in Pyspark with mean per class error of 0.196.
+							</p>
+						</article>
+						<article class="col-4 col-12-mobile special">
+							<a href="Choroid_analysis.pdf"target="_blank" rel="noopener noreferrer" class="image featured"><img src="images/enfaceimage.jpg" alt="" /></a>
+							<header>
+								<h3>Cataract Disease diagnosis automation</h3>
+							</header>
+							<p>
+								Automated the task of cataract patient eye diagnosis by segmenting blood vessels in the choroid layer of the eye in MATLAB.
+<a href="https://journals.sagepub.com/doi/10.1177/1120672119883593" target="_blank" rel="noopener noreferrer">Paper </a> published in European Journal of Ophthalmology
+							</p>
+						</article>
+					
+						<article class="col-4 col-12-mobile special">
+							<a href="" class="image featured"><img src="images/facial_exp.png" alt="" /></a>
+							<header>
+								<h3><a href="">Expression Recognition in Cohn Kanade+ dataset</a></h3>
+							</header>
+							<p>
+								Trained a multi class support vector machine to recognise six facial expressions happy, surprise, sad, angry, disgust, fear by extracting features around the mouth and eyes regions of face.
+Used a pyramid of local binary patterns on the low resolution images of Cohn Kanade+ dataset achieving 70% accuracy(highest) for happy and sad expressions.
+							</p>
+						</article>
+					</div><br>
+					<div class="row">
+						<article class="col-4 col-12-mobile special">
+							<a href="" class="image featured"><img src="images/heart_rate.jpg" alt="" /></a>
+							<header>
+								<h3><a href="">Patient Heart Rate and Blood Pressure Prediction</a></h3>
+							</header>
+							<p>
+								Placed 6th in an in-class Kaggle competition to predict heart rate and pressure in critically ill patients using XGBoost and Neural Networks with an R-squared value of 0.928. 
+							</p>
+						</article>
+						<article class="col-4 col-12-mobile special">
+							<header>
+								<h3>Other Projects</h3>
+							</header>
+							<p>
+								<ul>
+								  <li>Implemented RandomForest, Regularized Regression, and Gradient Boosting machine learning algorithms
+									from scratch in Python</li>
+									<li>Built a search engine for a corpus of BBC articles with my own hashtable
+									implementation</li>
+									<li>Implemented kmeans++ and Feature Importance techniques from scratch.
 								</ul>
-							</div>
-						</div>
-					</section>
 
+							</p>
+						</article>
+						<article class="col-4 col-12-mobile special">
+							<a href="https://drive.google.com/file/d/12M7n7mT2MV7cidz9ooIWNKOFzbC8SmPz/view?usp=sharing" class="image featured"><img src="images/donorschoose.jpg" alt="" /></a>
+							<header>
+								<h3><a href="plotly_donations.html">School Donations Visualisation Project</a></h3>
+							</header>
+							<p>
+								Using Pyspark and <a href="plotly_donations.html">Plotly</a>, analysed and visualised School Donations Project data that matches classroom charity projects to the most probable donors nationwide.
+							</p>
+						</article>
+						
+					</div>
+
+
+				</section>
 			</div>
 
-		<!-- Footer -->
-			<footer id="footer">
-				<div class="inner">
-					<ul class="icons">
-						<li><a href="https://www.linkedin.com/in/nishat-parveen/" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
-						<li><a href="https://github.com/nishatparveen21" class="icon brands fa-github"><span class="label">Github</span></a></li>
-						<li><a href="https://mail.google.com/mail/?view=cm&fs=1&to=nishatconnect@gmail.com&su=Hi! I just checked out your website.&body=" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
-					</ul>
-					<!--<ul class="copyright">
-						<li>&copy; Nishat</li></li>
-					</ul> -->
+
+			<!-- Main -->
+				<div class="wrapper style2">
+
+					<article id="main" class="container special">
+						<a href="#main" class="image featured"><img src="images/nish_peak1.JPG" alt="Emory_peak"/></a>
+						<p id="maincaption"> Overcame my fear of heights at Emory Peak, the highest peak in Big Bend National Park, December 2020</p>
+						<header>
+							<h2>About Me</h2>
+							<p> I am a Data Scientist pursuing breadth in business analysis and cloud backend engineering at Pure Storage. I have a stake holder facing job that has made my resolve stronger to optimise cloud resources at their best. Prior to this, while completing my Masters in Data Science program at the <a href="https://www.usfca.edu/arts-sciences/graduate-programs/data-science" target="_blank" rel="noopener noreferrer">University of San Francisco</a>, I interned at <a href="https://www.checkpoint.com/">Checkpoint Software Technologies</a> that opened my eyes to risks in cloud security and how to mitigate them. 
+							I have been applying machine learning and deep learning techniques since 2015, when I got a breakthrough to collaborate with Ophthalmologists for a noble cause to automate Cataract diagnosis.
+							</p>
+						</header>
+						<p>
+							I have always been fascinated with the idea of problem-solving and automation. Data Science is one of the ways to achieve it and I am loving it! 
+							When I don't play with data, I like to gym and read science fiction and thriller based novels. Also, as I have already covered Zion and Big Bend, I look forward to visiting all the National Parks in the US.
+						</p>
+					</article>
 				</div>
-			</footer>
+
+
+
+			<!-- Footer -->
+				<div id="footer">
+					<div class="container">
+							<div class="col-12">
+								<section>
+									<header>
+										<h3> <a href="Nishat_Parveen_Resume.pdf "target="_blank" rel="noopener noreferrer">Click to view my Resume</a></h3>
+									</header>
+								</section>
+								<!-- Contact -->
+									<section class="contact" id="contact">
+										<header>
+											<h3>Want to get in touch? Contact me with the links below</h3>
+										</header>
+										<ul class="icons">
+											<li><a href="https://github.com/nishat-parveen" target="_blank" rel="noopener noreferrer" class="icon brands fa-github"><span class="label">Linkedin</span></a></li>
+											<li><a href="https://www.linkedin.com/in/nishat-parveen/" target="_blank" rel="noopener noreferrer" class="icon brands fa-linkedin-in"><span class="label">Linkedin</span></a></li>
+											<li><a href="mailto:nishatconnect@gmail.com" class="fas fa-envelope"></a></li>
+										</ul>
+									</section>
+							</div>
+
+						</div>
+					</div>
+				</div>
+
+		</div>
 
 		<!-- Scripts -->
 			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.poptrox.min.js"></script>
+			<script src="assets/js/jquery.dropotron.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
 			<script src="assets/js/browser.min.js"></script>
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
