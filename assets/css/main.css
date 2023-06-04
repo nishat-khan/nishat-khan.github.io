@@ -2142,7 +2142,7 @@ header .icon.circled {
 }
 
 #header h1 a {
-    color: inherit;
+    color: #000000;
 }
 
 #header .button {
