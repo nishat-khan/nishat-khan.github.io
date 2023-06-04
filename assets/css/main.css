@@ -8,9 +8,9 @@
 */
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
     margin: 0;
-    padding: 0;
+    /* padding: 0; */
     border: 0;
-    font-size: 100%;
+    /* font-size: 100%; */
     font: inherit;
     vertical-align: baseline;
 }
@@ -19,9 +19,9 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
     display: block;
 }
 
-body {
+/* body {
     line-height: 1;
-}
+} */
 
 ol, ul {
     list-style: none;
@@ -41,9 +41,9 @@ table {
     border-spacing: 0;
 }
 
-body {
+/* body {
     -webkit-text-size-adjust: none;
-}
+} */
 
 mark {
     background-color: transparent;
@@ -71,14 +71,14 @@ html {
     box-sizing: inherit;
 }
 
-body {
+/* body {
     background: #f0f4f4;
     color: #5b5b5b;
     font-size: 15pt;
     line-height: 1.85em;
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: 300;
-}
+} */
 
 body.is-preload *, body.is-preload * :before, body.is-preload * :after {
     -moz-animation: none !important;
@@ -2104,7 +2104,7 @@ header .icon.circled {
     position: relative;
     background-size: cover;
     background-position: center center;
-    background-attachment: fixed;
+    /* background-attachment: fixed; */
     color: #000000;
     text-align: center;
     padding: 7.5em 0 2em 0;
@@ -2113,7 +2113,7 @@ header .icon.circled {
 
 #header:before {
     content: '';
-    display: inline-block;
+    /* display: inline-block; */
     vertical-align: middle;
     height: 100%;
 }
@@ -2172,8 +2172,8 @@ header .icon.circled {
 }
 
 body.homepage #header {
-    height: 100vh;
-    min-height: 40em;
+    /* height: 100vh; */
+    /* min-height: 40em; */
 }
 
 body.homepage #header h1 {
@@ -2190,13 +2190,13 @@ body.homepage #header:after {
     width: 100%;
     height: 100%;
     opacity: 0;
-    -moz-transition: opacity 1s ease-in-out;
-    -webkit-transition: opacity 1s ease-in-out;
-    -ms-transition: opacity 1s ease-in-out;
+    /* -moz-transition: opacity 1s ease-in-out; */
+    /* -webkit-transition: opacity 1s ease-in-out; */
+    /* -ms-transition: opacity 1s ease-in-out; */
     transition: opacity 1s ease-in-out;
-    -moz-transition-delay: 0.25s;
-    -webkit-transition-delay: 0.25s;
-    -ms-transition-delay: 0.25s;
+    /* -moz-transition-delay: 0.25s; */
+    /* -webkit-transition-delay: 0.25s; */
+    /* -ms-transition-delay: 0.25s; */
     transition-delay: 0.25s;
 }
 
@@ -2541,8 +2541,8 @@ body.homepage.is-preload #header:after {
 @media screen and (max-width: 1680px) {
     /* Basic */
     body, input, textarea, select {
-        font-size: 14pt;
-        line-height: 1.75em;
+        /* font-size: 14pt; */
+        /* line-height: 1.75em; */
     }/* Carousel */
 
     .carousel {
@@ -2563,8 +2563,8 @@ body.homepage.is-preload #header:after {
 @media screen and (max-width: 1280px) {
     /* Basic */
     body, input, textarea, select {
-        font-size: 12pt;
-        line-height: 1.5em;
+        /* font-size: 12pt; */
+        /* line-height: 1.5em; */
     }/* Wrapper */
 
     .wrapper {
@@ -2573,7 +2573,7 @@ body.homepage.is-preload #header:after {
     }/* Header */
 
     #header {
-        background-attachment: scroll;
+        /* background-attachment: scroll; */
     }
 
     #header .inner {
@@ -2598,8 +2598,8 @@ body.homepage.is-preload #header:after {
 @media screen and (max-width: 840px) {
     /* Basic */
     body, input, textarea, select {
-        font-size: 13pt;
-        line-height: 1.65em;
+        /* font-size: 13pt; */
+        /* line-height: 1.65em; */
     }
 
     .tweet {
@@ -2637,8 +2637,8 @@ body.homepage.is-preload #header:after {
     }
 
     body, input, textarea, select {
-        font-size: 10.5pt;
-        line-height: 1.5em;
+        /* font-size: 10.5pt; */
+        /* line-height: 1.5em; */
     }
 
     h2 {
@@ -2915,7 +2915,7 @@ body.homepage.is-preload #header:after {
 
     #header {
         background-attachment: scroll;
-        padding: 2.5em 0 0 0;
+        /* padding: 2.5em 0 0 0; */
     }
 
     #header .inner {
